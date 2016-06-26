@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8"> 
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+       <link rel="stylesheet" href="style2.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+
+
+    <body>
+
+        <div class="jumbotron text-center">
+            <h1 class="display-3">Quiz App</h1>
+                <form>
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control" placeholder="Jump to question...">
+                            <span class="input-group-addon">Go</span>
+                        </div>
+                   </div>
+                </form>
+        </div>
+                 
+
+        <div id="wrapper">
+
+ 	          <div style="width:100%;"></div>
+ 
+               <div class="page-header">
+                   <h2 class="text">Quiz #1: Subject here</h2> 
+               </div>
+
+               <div class="page-header">
+        	         <p class="text" align='left'>Information about quiz here (Rules, etc)</p>
+               </div>
+
+               <div class='page-header'>
+                   <h2 class="text">Your progress</h2> 
+                       <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                           </div>
+                       </div>
+               </div>
+
+
+               <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <p class="text">1. What is the answer to this question?</p>
+                    </div>
+                    <ul class="answers">
+                        <input type="radio" name="q1" value="a" id="q1a"> Answer 1<br/>
+                        <input type="radio" name="q1" value="b" id="q1b"> Answer 2<br/>
+                        <input type="radio" name="q1" value="c" id="q1c"> Answer 3<br/>
+                        <input type="radio" name="q1" value="d" id="q1d"> Answer 4<br/>
+                    </ul>
+                </div>
+
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <p class="text">2. What is the answer to this question?</p>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" id="answer" placeholder="Enter your answer here..."></textarea>
+                    </div>
+                </div>
+
+            <button type="button" class="btn btn">Finish</button>
+        </body>
+    </div>
+
+</html>
+
